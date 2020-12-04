@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Competition!</title>
+        <link href="main-rule.css" rel="stylesheet">
+        <script src="main-script.js"></script>
+    </head>
+    <body>
+        <div id="sets" onclick="settings()"  ></div>
+        <div id="top_container">
+            <h1 id="tit">Title: </h1>
+            <input placeholder="Your Title Here" id="inpt" onkeypress="declare()">
+            <div>    <h1 id="title">Title</h1> </div>
+        </div>
+        <div id="bottom_container">
+            <textarea class="textarea"></textarea>
+        </div>
+        <button id="add" onclick="addTextArea()"> + </button>
+        <button id="story" onclick="getStory()"> Get Story </button>
+    </body>
+</html>
